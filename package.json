@@ -1,0 +1,28 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Learn nodeJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangbly62/wetube.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Jacob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangbly62/wetube/issues"
+  },
+  "homepage": "https://github.com/jangbly62/wetube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.12"
+  }
+}
