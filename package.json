@@ -8,7 +8,7 @@
     "url": "git+https://github.com/jangbly62/wetube.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Jacob",
   "license": "MIT",
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/jangbly62/wetube#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {
