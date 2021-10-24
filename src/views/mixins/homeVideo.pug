@@ -1,0 +1,10 @@
+mixin video(item)
+    div
+        a(href=`/videos/${item._id}`)
+            h3=item.title 
+        p #{item.description}
+        ul
+            each hash in item.hashtags
+                li #{hash}
+        small #{item.createdAt}
+        hr

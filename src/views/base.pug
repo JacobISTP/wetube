@@ -8,9 +8,11 @@ html(lang="en")
         link(rel="stylesheet" href="https://unpkg.com/mvp.css")
     body
         header
-            h1=pageTitle
+            h1=pageTitle 
+            include partials/header
+
         main 
-            a(href="/videos/upload") Upload video &rarr;
+
             block content
 
         include partials/footer.pug

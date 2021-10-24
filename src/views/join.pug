@@ -1,0 +1,17 @@
+extends base
+
+block content 
+    if errorMessage  
+        h4=errorMessage
+    form(method="POST")
+        input(type="text", name="username", placeholder="Username", required)
+        input(type="password", name="password", placeholder="Password", required)
+        input(type="password", name="password2", placeholder="Password Confirmation", required)
+        input(type="text", name="name", placeholder="Name", required)
+        input(type="text", name="email", placeholder="E-mail", required)
+        input(type="text", name="location", placeholder="Location")
+        input(type="submit", value="Create Account")
+    hr
+    div 
+        span Already have an account? 
+        a(href="/login")  Log in now &rarr;
